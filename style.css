@@ -134,7 +134,7 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 30px;
+    margin-left: 25px;
     cursor: pointer;
 }
 .icon{
@@ -624,13 +624,14 @@ footer section p:hover{
         height: 270px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
-        margin-top: 10px;
+
     }
     .filtres div{
-        margin-top: 10px;
         font-size: 0.9em;
+        margin-top: 10px;
+        
     }
     .filtres div span{
         margin-left: 11px;
@@ -676,7 +677,7 @@ footer section p:hover{
     }
     .filtres div:nth-child(4)
     {
-        margin-left: 0px;
+        margin-left: 22px;
     }
     button span{
         display: none;
