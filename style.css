@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 /*------------------------------------BASE--------------------------------------------*/
 body {
     font-family: 'Raleway', sans-serif;
@@ -6,6 +9,10 @@ body {
     width: auto;
     margin: 0 auto;
     font-size: 16px;
+  }
+
+  .gras {
+    font-weight: bold;
   }
 /*------------------------------------HEADER--------------------------------------------*/
 header {
@@ -675,6 +682,7 @@ footer section p:hover{
     footer section{
         width: 80%;
     }
+
     .filtres div:nth-child(4)
     {
         margin-left: 22px;
@@ -714,11 +722,13 @@ footer section p:hover{
         justify-content: space-between;
         position: unset;
         margin-top: 25px;
+ 
     }
     header nav a {
         padding: 0 0 20px 0;
         width: 50%;
         text-align: center;
+        border-bottom: 3px solid #E0E0E0;
     }
 
     header nav a:hover {
