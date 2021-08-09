@@ -386,7 +386,7 @@
   
   .host-ranking-base:before {
     font-family: "Font Awesome 5 Free";
-    font-size: 0.75rem;
+    font-size: 0.90rem;
     font-weight: 900;
     color: #0065fc;
     content: "\f005 \f005 \f005"
@@ -394,7 +394,7 @@
   
   .host-ranking-full:before {
     font-family: "Font Awesome 5 Free";
-    font-size: 0.75rem;
+    font-size: 0.90rem;
     font-weight: 900;
     color: #0065fc;
     content: "\f005"
@@ -402,7 +402,7 @@
   
   .host-ranking-empty:before {
     font-family: "Font Awesome 5 Free";
-    font-size: 0.75rem;
+    font-size: 0.90rem;
     font-weight: 900;
     color: gainsboro;
     content: "\f005"
